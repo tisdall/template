@@ -181,7 +181,7 @@ htmlhelp_basename = 'ReadtheDocsTemplatedoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
-latex_elements = {
+#latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
 #'papersize': 'letterpaper',
 
@@ -190,15 +190,15 @@ latex_elements = {
 
 # Additional stuff for the LaTeX preamble.
 #'preamble': '',
-}
+#}
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
-latex_documents = [
-  ('index', 'ReadtheDocsTemplate.tex', u'Read the Docs Template Documentation',
-   u'Read the Docs', 'manual'),
-]
+#latex_documents = [
+#  ('index', 'ReadtheDocsTemplate.tex', u'Read the Docs Template Documentation',
+#   u'Read the Docs', 'manual'),
+#]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
